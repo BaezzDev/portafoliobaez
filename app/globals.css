@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    color-scheme: dark;
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    
+}
+body{
+    overflow-y: auto;
+}
+.fadeIn{
+    animation-name: fadeIn;  
+    animation-duration: .7s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: both;  
+}
+.wait{
+    animation-delay: 1s;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateX(-25px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,24 @@
+[
+    {   
+        "id":1,
+        "project":"E-Commerce",
+        "url":"example.url"
+    },
+    {
+        "id":2,
+        "project":"Personal Website",
+        "url":"example.url"
+    },
+    {   "id":3,
+        "project":"Educational Website",
+        "url":"example.url"
+    },
+    {   "id":4,
+        "project":"Enterprise/Foundation",
+        "url":"example.url"
+    },
+    {   "id":5,
+        "project":"Product/Brand",
+        "url":"example.url"
+    }
+]
